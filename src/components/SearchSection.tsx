@@ -15,6 +15,16 @@ const SearchSection = () => {
   const [searchResults] = useState([
     {
       id: 1,
+      name: "Владимир Клавдиевич Арсеньев",
+      birthYear: 1872,
+      deathYear: 1930,
+      burialDate: "04.09.1930",
+      plot: "A-1",
+      photo:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    },
+    {
+      id: 2,
       name: "Иванов Петр Сергеевич",
       birthYear: 1945,
       deathYear: 2020,
@@ -24,7 +34,7 @@ const SearchSection = () => {
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
     },
     {
-      id: 2,
+      id: 3,
       name: "Смирнова Анна Ивановна",
       birthYear: 1952,
       deathYear: 2021,
@@ -117,7 +127,7 @@ const SearchSection = () => {
           </div>
 
           <div className="text-center mt-8">
-            <p className="text-gray-600 mb-4">Найдено 2 из 1,892 записей</p>
+            <p className="text-gray-600 mb-4">Найдено 3 из 1,892 записей</p>
             <Button variant="outline" className="border-blue-500 text-blue-500">
               Показать больше результатов
             </Button>
